@@ -16,3 +16,8 @@
 #' @docType package
 #' @name mdreportes
 "_PACKAGE"
+
+.onLoad <- function(libname, pkgname) {
+  ggplot2::theme_set(mdreportes:::theme_md())
+}
+

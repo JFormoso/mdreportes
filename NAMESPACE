@@ -3,3 +3,8 @@
 export(actualizar_brand)
 export(diagnosticar_brand)
 export(nuevo_documento)
+export(paleta_md)
+export(scale_color_md)
+export(scale_colour_md)
+export(scale_fill_md)
+export(theme_md)

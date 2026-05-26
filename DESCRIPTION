@@ -14,4 +14,5 @@ RoxygenNote: 8.0.0
 Imports: 
     cli,
     fs,
+    ggplot2,
     rstudioapi
