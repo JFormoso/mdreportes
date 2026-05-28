@@ -6,8 +6,9 @@
 #' @format Vector de caracteres con códigos hex.
 #'
 #' @examples
+#' \dontrun{
 #' paleta_md
-#' scales::show_col(paleta_md)
+#' }
 #'
 #' @export
 paleta_md <- c(

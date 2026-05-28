@@ -14,7 +14,8 @@ Vector con los cinco colores institucionales en orden recomendado
 para uso en gráficos categóricos.
 }
 \examples{
+\dontrun{
 paleta_md
-scales::show_col(paleta_md)
+}
 
 }

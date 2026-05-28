@@ -19,8 +19,8 @@ Compara el \verb{_brand.yml} de uno o varios proyectos con la versión actual
 del paquete e informa si están actualizados, desactualizados o ausentes.
 }
 \examples{
-
+\dontrun{
 diagnosticar_brand(proyectos = fs::dir_ls("~/reportes", type = "directory"))
-
+}
 
 }

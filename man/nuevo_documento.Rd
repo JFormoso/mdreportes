@@ -37,6 +37,7 @@ un documento Quarto con la identidad institucional de MetaDocencia:
 colores, tipografías, logo y estructura de secciones sugerida.
 }
 \examples{
+\dontrun{
 # Reporte HTML
 nuevo_documento("informe-anual", tipo = "reporte-html")
 
@@ -48,6 +49,6 @@ nuevo_documento("reunion-equipo", tipo = "presentacion")
 
 # En un directorio específico
 nuevo_documento("informe-q3", tipo = "reporte-html", directorio = "~/reportes")
-
+}
 
 }

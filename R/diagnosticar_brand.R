@@ -10,9 +10,9 @@
 #'   (`"actualizado"`, `"desactualizado"`, `"ausente"`), de forma invisible.
 #'
 #' @examples
-#'
+#' \dontrun{
 #' diagnosticar_brand(proyectos = fs::dir_ls("~/reportes", type = "directory"))
-#'
+#' }
 #'
 #' @export
 diagnosticar_brand <- function(proyectos = ".") {

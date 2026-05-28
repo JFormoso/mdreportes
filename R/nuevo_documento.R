@@ -18,6 +18,7 @@
 #' @return Ruta al directorio creado, de forma invisible.
 #'
 #' @examples
+#' \dontrun{
 #' # Reporte HTML
 #' nuevo_documento("informe-anual", tipo = "reporte-html")
 #'
@@ -29,7 +30,7 @@
 #'
 #' # En un directorio específico
 #' nuevo_documento("informe-q3", tipo = "reporte-html", directorio = "~/reportes")
-#'
+#' }
 #'
 #' @export
 nuevo_documento <- function(

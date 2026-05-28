@@ -10,19 +10,19 @@ actualizar_brand(proyectos = ".", confirmar = TRUE)
 \item{proyectos}{Vector de rutas a directorios de proyectos Quarto.
 Por defecto usa el directorio de trabajo actual \code{"."}.}
 
-\item{confirmar}{Si \code{TRUE} (por defecto), pide confirmación interactiva
+\item{confirmar}{Si \code{TRUE} (por defecto), pide confirmaci\u00f3n interactiva
 antes de sobreescribir cada archivo.}
 }
 \value{
 Vector de rutas actualizadas, de forma invisible.
 }
 \description{
-Reemplaza el archivo \verb{_brand.yml} en uno o varios proyectos con la versión
-actual del paquete. Útil cuando la identidad institucional cambia y se necesita
+Reemplaza el archivo \verb{_brand.yml} en uno o varios proyectos con la versi\u00f3n
+actual del paquete. \u00fatil cuando la identidad institucional cambia y se necesita
 propagar las actualizaciones a proyectos ya creados.
 }
 \examples{
-
+\dontrun{
 # Actualizar el proyecto actual
 actualizar_brand()
 
@@ -31,8 +31,8 @@ actualizar_brand(
   proyectos = c("~/reportes/informe-q3", "~/reportes/memoria-anual")
 )
 
-# Sin confirmación (para scripts)
+# Sin confirmaci\u00f3n (para scripts)
 actualizar_brand(proyectos = fs::dir_ls("~/reportes"), confirmar = FALSE)
-
+}
 
 }
